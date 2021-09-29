@@ -1,0 +1,1 @@
+document.write("Ja som text z externého skriptu.");
