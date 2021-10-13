@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Funkcie reťazcov</title>
+</head>
+<body>
+    <p>Funkcie reťazcov: </p>
+    <script>
+        let x = ' text ';
+        document.write(x.length+"<br>");
+        x = x.trim();
+        document.write(x.length+x[0]+"*"+x[1]+"*"+x[2]+"*"+x[3]+x.length+"<br>");
+        let str = 'Dnes je programovanie.';
+        document.write(str+"<br>");
+        let string = str.replace("je programovanie", "su skriptovacie jazyky");
+        document.write(string+"<br>");
+        document.write(str.toUpperCase()+"<br>");
+        document.write(string.toLowerCase()+"<br>");
+        let spojene = x.concat(str, string+"<br>");
+        document.write(spojene+"<br>");
+    </script>
+</body>
+</html>
